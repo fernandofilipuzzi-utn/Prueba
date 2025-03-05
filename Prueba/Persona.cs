@@ -15,4 +15,9 @@ public class Persona
     {
         Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
     }
+
+    public override string ToString()
+    {
+        return Nombre;
+    }
 }
